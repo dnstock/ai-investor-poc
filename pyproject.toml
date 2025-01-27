@@ -1,6 +1,6 @@
 [project]
-name = "investor-backend"
-version = "0.1.0"
+name = "ai-investor-poc"
+version = "0.1.1"
 description = "AI-driven day-trading proof of concept."
 readme = "README.md"
 authors = [
