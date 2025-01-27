@@ -1,3 +1,13 @@
+# Data model files
+*.csv
+*.pkl
+
+# Mac files
+.DS_Store
+
+# VS Code files
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
