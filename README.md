@@ -123,7 +123,7 @@ In a more robust system, we could also incorporate position sizing, risk constra
 
 Run the following command in your terminal:
 ```bash
-python src/trading/run.py
+./scripts/run
 ```
 
 You will be prompted to provide a data source, a stock ticker symbol and a polling interval.
