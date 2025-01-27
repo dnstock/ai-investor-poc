@@ -1,0 +1,23 @@
+[project]
+name = "investor-backend"
+version = "0.1.0"
+description = "AI-driven day-trading proof of concept."
+readme = "README.md"
+authors = [
+  { name = "Dan Harcsztark", email = "85728+dnstock@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+
+dependencies = [
+  "backtrader>=1.9.78",
+  "requests>=2.31.0",
+  "pandas>=2.2.3",
+  "numpy>=1.24.0",
+  "scikit-learn>=1.0",
+  "yfinance (>=0.2.52)",
+  "alpaca-trade-api (>=3.2.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
