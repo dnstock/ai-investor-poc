@@ -1,0 +1,15 @@
+#!/bin/sh
+
+DATA_SOURCE=$1
+
+if [ -z "$DATA_SOURCE" ] || [ "$DATA_SOURCE" = "alpaca" ]; then
+    python src/ml/fetch_data_alpaca.py
+
+elif [ "$DATA_SOURCE" = "yahoo" ]; then
+    python src/ml/fetch_data_yfinance.py
+
+else
+    echo "Invalid data source: $DATA_SOURCE"
+    echo "Usage: $0 [alpaca|yahoo] (default: alpaca)"
+    exit 1
+fi

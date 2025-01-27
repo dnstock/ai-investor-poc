@@ -1,0 +1,2 @@
+#!/bin/sh
+python src/ml/train_model.py
