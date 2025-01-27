@@ -72,7 +72,7 @@ This will fetch, process and store historical data for a single ticker (e.g., NV
 
 The script will automatically create a CSV file and save it in `src/data/` with the following format:
 ```
-training_data.[alpaca|yfinance].{ticker}.csv
+training_data.{data_source}.{ticker}.csv
 ```
 
 ### Train the Model
@@ -90,7 +90,7 @@ This will train an ML model using Logistic Regression with minimal features. It 
 
 The script will automatically create a PKL file and save it in `src/data/` with the following format:
 ```
-traind_model.[alpaca|yfinance].{ticker}.pkl
+trained_model.{data_source}.{ticker}.pkl
 ```
 
 ## 3. Runtime Data Feeds
